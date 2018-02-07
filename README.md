@@ -1,3 +1,19 @@
-Learn Go
+### Learn Go
+===
 
-First Commit
+
+### Build
+```
+make all
+```
+
+### Tests
+```
+
+make test
+```
+
+### Lint
+```
+make lint
+```
