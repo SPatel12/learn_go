@@ -1,18 +1,16 @@
-### Learn Go
-===
+# Learn Go
+Go learning project, where tutorials are conducted in brown bag session and various Exercise are done to put learning into practice.
 
-
-### Build
+## Setup
+To install, run go get, cd into the new directory, build the executable and run it.
 ```
-make all
-```
-
-### Tests
-```
-make test
+go get github.com/SPatel12/learn_go.git
+cd  ~/go/src/github.com/SPatel12/learn_go
 ```
 
-### Lint
-```
-make lint
-```
+###Folder Structures
+Constants
+Exercises
+Hello World
+Number System
+

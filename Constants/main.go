@@ -6,10 +6,9 @@ const p = "death & taxes"
 
 func main() {
 
-  const q = 42
+	const q = 42
 
-  fmt.Println("p - ", p)
-  fmt.Println("q - ", q)
-
+	fmt.Println("p - ", p)
+	fmt.Println("q - ", q)
 
 }
