@@ -8,9 +8,10 @@ go get github.com/SPatel12/learn_go.git
 cd  ~/go/src/github.com/SPatel12/learn_go
 ```
 
-###Folder Structures
-Constants
-Exercises
-Hello World
-Number System
+### Folder Structures
+> Constants
+> Exercises
+- [x] Random Record Generator
+> Hello World
+> Number System
 
