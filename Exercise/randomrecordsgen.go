@@ -14,13 +14,14 @@ func main() {
 
 	for i := 0; i < num; i++ {
 		fmt.Println("****Persona Generator****", persona())
-		fmt.Println("------------------------")
+		fmt.Println("-*-*-*-*-*-*-*-*-*-*-*-*-")
+
 	}
 }
 
 func persona() string {
 
-	fullname := strings.ToUpper(fake.MaleFullNameWithPrefix())
+	fullname := strings.ToUpper(fake.FullNameWithPrefix())
 	email := fake.EmailAddress()
 	sadd := fake.StreetAddress()
 	padd := fake.Zip()
@@ -33,8 +34,3 @@ func persona() string {
 		"\n" + sadd + "\n" + padd + "\n" + cadd + "\n" + coadd +
 		"\n" + honum + "\n" + monum
 }
-
-//err := fake.SetLang("ru")
-//if err != nil {
-//panic(err)
-//}
