@@ -19,7 +19,8 @@ cd  ~/go/src/github.com/SPatel12/learn_go
 ```
 Execution of Random Generator:
 
+$ cd Exercise
 $ go build
-$ go run Exercise/randomrecordsgen.go 
+$ go run randomrecordsgen.go 
 ```
 
