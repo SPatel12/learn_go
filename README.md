@@ -28,3 +28,17 @@ Dependencies:
 $ go get github.com/icrowley/fake
 ```
 
+> Example:
+```
+****Persona Generator**** 
+NAME: MRS. MS. MISS AMY BUTLER
+Email Address: oHenderson@Leexo.net
+Street Address: Maple Wood Center 82
+Zip: 7100597
+State: Alaska
+Country: Pakistan
+H Phone: 887-31-56
+Mobile: 37780831724
+Record Number: 0
+-*-*-*-*-*-*-*-*-*-*-*-*-
+```
