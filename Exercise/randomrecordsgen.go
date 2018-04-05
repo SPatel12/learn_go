@@ -72,9 +72,9 @@ func persona() string {
 func returnnum() int {
 	var num int
 	fmt.Print(Inputtext)
-	n, err := fmt.Scan(&num)
-	if err != nil || n != 1 || n < minNum || n > maxNum {
-		fmt.Printf("Invalid number, Enter between %d and %d\n", minNum, maxNum)
+	fmt.Scan(&num)
+	if   num < minNum || num > maxNum {
+		fmt.Printf("Invalid Input, Enter between %d and %d\n", minNum, maxNum)
 		os.Exit(1)
 	}
 	return num
