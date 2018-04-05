@@ -4,7 +4,7 @@ Go learning project, where tutorials are conducted in brown bag session and vari
 ## Setup
 To install, run go get, cd into the new directory, run it. Dependencies
 ```
-go get github.com/SPatel12/learn_go.git
+go get github.com/SPatel12/learn_go/Execrise
 cd  ~/go/src/github.com/SPatel12/learn_go
 ```
 
